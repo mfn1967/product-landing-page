@@ -1,0 +1,55 @@
+/* Clear default margins and padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/*    border: 1px solid red; */
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+
+/* Header Styling */
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+}
+
+#header-img {
+    margin-top: 1rem;
+}
+
+/* Nav Bar Styling */
+
+#nav-bar {
+    width: 100%;
+}
+
+#nav-bar > ul {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+#nav-bar > ul > li:nth-child(2) {
+    margin-left: 1.5rem;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid white;
+    padding: 0.5rem;
+}
+
+li:hover {
+    background-color: #0b2340;
+    color: white;
+}
