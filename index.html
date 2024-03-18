@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="styles.css" class="css">
     <title>Product Landing Page</title>
 </head>
@@ -15,24 +16,93 @@
         <nav id="nav-bar">
             <ul>
                 <li>
-                    <a class="nav-link">Shows</a>
+                    <a class="nav-link" href="#shows">Shows</a>
                 </li>
                 <li>
-                    <a class="nav-link">Classes</a>
+                    <a class="nav-link" href="#classes">Classes</a>
                 </li>
                 <li>
-                    <a class="nav-link">Corporate</a>
+                    <a class="nav-link" href="#corporate">Corporate</a>
                 </li>
             </ul>
         </nav>
     </header>
 </div>
-<section id="hero">
-    <h2>Nashville's only Improv Theater.</h2>
-    <form action="https://www.freecodecamp.com/email-submit" id="form" type="email-submit" method="post">
-        <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
-        <input id="submit" type="submit" value="Get Started" class="btn">
-    </form>
-</section>
+<div class="hero-container">
+    <section id="hero">
+        <h2>Nashville's only Improv Theater.</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form" type="email-submit" method="post">
+            <input name="email" id="email" type="email" placeholder="Get our schedule!" required="">
+            <input id="submit" type="submit" value="Get Started" class="btn">
+        </form>
+    </section>
+</div>
+<div class="offerings-container">
+    <section id="offerings">
+        <div class="description">
+            <h2 id="shows">Shows</h2>
+            <p>We have two shows per night, Thursday through Sunday</p>
+        </div>
+        <div class="description two">
+            <h2 id="classes">Classes</h2>
+            <p>Take a class in Improv, Musical Improv, Standup, Sketch Writing or Acting</p>
+        </div>
+        <div class="description">
+            <h2 id="corporate">Corporate</h2>
+            <p>Let us assist you in teambuilding or just come watch a show and get drunk on your company's dime!</p>
+        </div>
+    </section>
+</div>
+<div class="sample-container">
+    <section class="testimonial">
+        <iframe id="video" height="315" src="./videos/Dog.mp4" frameborder="0" allowfullscreen=""></iframe>
+    </section>
+</div>
+<div class="footer">
+    <footer>
+        <div class="helpful">
+            <h3>Helpful Links</h3>
+            <ul>
+                <li>About Us</li>
+                <li>Safe Space</li>
+                <li>Anonymous Reporting</li>
+                <li>Unscripted</li>
+                <li>The Bar</li>
+                <li>Contributors</li>
+            </ul>
+        </div>
+        <div class="more-helpful">
+            <h3>More Helpful Links</h3>
+            <ul>
+                <li>Auditions</li>
+                <li>Show Submissions</li>
+                <li>Student Area</li>
+                <li>Instructors</li>
+                <li>Class Guidelines</li>
+                <li>Private Events</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <ul>
+                <li>Phone: 615-745-1009</li>
+                <li>info@thirdcoastcomedyclub.com</li>
+                <li>131 Clinton St. Nashville, TN 37203</li>
+                <li><a href="https://www.facebook.com/freecodecamp">
+                    <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li><a href="https://twitter.com/freecodecamp">
+                    <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li><a href="https://instagram.com/freecodecamp">
+                    <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
